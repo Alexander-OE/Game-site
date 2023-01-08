@@ -36,7 +36,14 @@ const Cover = () => {
       </div>
     </div>
     {/* ######################## */}
-    <div></div>
+    <div className="border-4 border-[#A3258E] rounded w-[16rem] mt-[20px]">
+      <h4 className="text-[20px] text-[white] font-medium pt-[18px] pb-[20px] pl-[10px]">What we do and <br /> how to use</h4>
+      <p className="text-[#8b8585] pl-[10px] pr-[15px] pb-[8px]">Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit, sed <br /> do eiusmod tempor incididunt <br /> ut labore et dolore magna <br /> aliqua. Ut enim ad minim <br /> veniam, quis.</p>
+      <div className="bg-[#A3258E] text-[white] rounded pt-[9px] pb-[10px] pl-[9px]  mx-[13px] mb-[8px]">
+      <button className="font-semibold">About Us</button>
+      {/* <img src="" alt="" /> */}
+      </div>
+    </div>
     {/* ######################## */}
     <p>cajsaflkfsdfkafjldvj</p>
   </div>
