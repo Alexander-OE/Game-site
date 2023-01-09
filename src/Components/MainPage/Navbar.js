@@ -7,13 +7,13 @@ const Navbar = () => {
     const [open, setOpen] = useState(false)
   return (
     <nav>
-      <div className="flex md:justify-around items-center pt-5 w-full absolute ">
+      <div className="flex md:justify-around items-center pt-5 w-full absolute  ">
       <div className="mb-8 mt-4 flex font-semibold text-[20px] text-white ">
           <img src={header} alt="mini-house" className="pl-2" />
           <h1>UIGaming</h1>
         </div>
         <ul className="hidden md:flex text-[20px] font-semibold ">
-          <NavLink style={({isActive})=> {return {color: isActive ? "red" : "white"}}} to={"home"} className=" link ">Home</NavLink>
+          <NavLink style={({isActive})=> {return {color: isActive ? "red" : "white"}}} to={"home"} className="link">Home</NavLink>
           <NavLink style={({isActive})=> {return {color: isActive ? "red" : "white"}}} to={"about"} className="link">About</NavLink>
           <NavLink style={({isActive})=> {return {color: isActive ? "red" : "white"}}} to={"games"} className="link">Games</NavLink>
           <NavLink style={({isActive})=> {return {color: isActive ? "red" : "white"}}} to={"contact"} className="link">Contact</NavLink>
