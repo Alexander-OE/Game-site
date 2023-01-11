@@ -122,21 +122,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
      
 
         
-            <div className="relative bottom-[93rem] bg-[#192B4266]  pt-[1rem] pb-2  md:bottom-[91.3rem] md:pl-[42rem] md:rounded-lg md:mx-[2rem] ">
-              <div className="pb-2 ">
-                <h1 className="text-[#FFFFFFA8] text-[18px] font-semibold  pl-8 md:w-[34rem]">
-                  How we Provied the latest games for your Convenience
-                </h1>
-              </div>
-              <div>
-                <p className="text-[#FFFFFF3B] pl-8 ">
-                  Lorem ipsum dolor sit amet,  consectetur adipiscing
-                  elit, sed do  eiusmod tempor incididunt ut labore et{" "}
-                   dolore magna aliqua. Ut enim ad minim  veniam,
-                  quis nostrud exercitation  ullamco laboris nisi ut
-                  aliquip ex ea  commodo consequat. Duis aute irure {" "}
-                  dolor in reprehenderit in voluptate  velit esse cillum
-                </p>
-              </div>
-            </div>
-          
