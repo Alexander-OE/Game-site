@@ -10,7 +10,7 @@ import Content from "./Content";
 const Body = () => {
   return (
     <>
-      <div className="bg-[#0B192E] pb-[12rem]  md:pt-36 md:pb-[25rem]">
+      <div className="bg-[#0B192E] pb-[8rem]  md:pt-36 md:pb-[25rem]">
         <div className="flex flex-col items-center">
           <div className="pb-[5rem] pl-8 pt-10 md:pl-0 md:pt-0">
             <img src={stream} alt="" className="w-[80%] md:w-full" />
