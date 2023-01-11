@@ -11,7 +11,7 @@ const Content = () => {
         {/* <button className=" md:top-[45rem] btn ml-[35rem] md:text-[40px]">
           Get Started
         </button> */}
-        <button className="btn ml-[8.5rem] mt-[3rem] md:text-[40px] md:ml-[35rem]">Get Started</button>
+        <button className="btn ml-[7rem] mt-[3rem] md:text-[40px] md:ml-[35rem]">Get Started</button>
       </div>
     </>
   );
