@@ -1,17 +1,24 @@
 import { Route, Routes } from "react-router-dom";
 import SharedLayout from "./Components/MainPage/SharedLayout";
-import HomePage from "./Components/Pages/HomePage";
-// import Navbar from "./Components/MainPage/Navbar";
+import LoadingSpinner from "./Components/Loader/LoadingSpinner";
+// import HomePage from "./Components/Pages/HomePage";
+
+import React, {Suspense} from "react";
+
+const LazyHome = React.lazy(()=> import("./Components/Pages/HomePage"))
+
 
 function App() {
   return (
+    <Suspense fallback={<LoadingSpinner />}>
     <Routes>
       <Route path="/" element={<SharedLayout />} >
       
-      <Route  index element={<HomePage />}/>
+      <Route  index element={<LazyHome />}/>
 </Route>
 
     </Routes>
+    </Suspense>
   );
 }
 
