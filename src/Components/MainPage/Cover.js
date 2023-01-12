@@ -34,7 +34,7 @@ const Cover = () => {
        
       
         
-          <div className="absolute top-[40rem] left-[4.2rem] md:flex md:left-[0rem] md:top-[36.8rem]">
+          <div className="absolute top-[40rem] left-[4rem] md:flex md:left-[0rem] md:top-[36.8rem]">
           <div className=" border-4 border-[#3D4093] rounded w-[16rem] mx-auto mb-[16px] md:mx-0 md:mb-0 md:ml-[90px] ">
             <h4 className="text-[20px] text-[white] font-medium pt-[18px] pb-[20px] pl-[10px]">
               Premium games <br /> laboratroy
@@ -45,7 +45,7 @@ const Cover = () => {
               magna <br /> aliqua. Ut enim ad minim veniam, quis.
             </p>
             <div className="flex justify-around  bg-[#3D4093] text-[white] rounded pt-[9px] pb-[10px] pl-[9px]  mx-[13px] mb-[8px]">
-              <button className="font-semibold cursor-pointer">Our Games</button>
+              <button className="font-semibold cursor-pointer hover:bg-[white] hover:border-solid hover:text-[#3D4093]">Our Games</button>
               <AiOutlineArrowRight />
             </div>
           </div>
@@ -60,7 +60,7 @@ const Cover = () => {
               magna <br /> aliqua. Ut enim ad minim <br /> veniam, quis.
             </p>
             <div className="flex justify-around  bg-[#A3258E] text-[white] rounded pt-[9px] pb-[10px] pl-[9px]  mx-[13px] mb-[8px]">
-              <button className="font-semibold cursor-pointer">About Us</button>
+              <button className="font-semibold cursor-pointer hover:bg-[white] hover:border-solid hover:text-[#A3258E]">About Us</button>
               <AiOutlineArrowRight />
             </div>
           </div>
