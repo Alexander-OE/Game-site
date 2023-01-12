@@ -34,8 +34,8 @@ const Cover = () => {
        
       
         
-          <div className="absolute top-[40rem] left-[4.2rem] md:flex md:left-[0rem] md:top-[36.8rem]">
-          <div className=" border-4 border-[#3D4093] rounded w-[16rem] mx-auto mb-[16px] md:mx-0 md:mb-0 md:ml-[90px] ">
+          <div className="absolute top-[40rem] left-[4.2rem]   md:flex md:left-[0rem] md:top-[36.8rem]">
+          <div className=" border-4 border-[#3D4093] rounded w-[16rem] mx-auto  pb-3 mb-[16px]  md:pb-0 md:mx-0 md:mb-0 md:ml-[90px] ">
             <h4 className="text-[20px] text-[white] font-medium pt-[18px] pb-[20px] pl-[10px]">
               Premium games <br /> laboratroy
             </h4>
@@ -45,12 +45,12 @@ const Cover = () => {
               magna <br /> aliqua. Ut enim ad minim veniam, quis.
             </p>
             <div className="flex justify-around  bg-[#3D4093] text-[white] rounded pt-[9px] pb-[10px] pl-[9px]  mx-[13px] mb-[8px]">
-              <button className="font-semibold cursor-pointer">Our Games</button>
+              <button className="font-semibold cursor-pointer ">Our Games</button>
               <AiOutlineArrowRight />
             </div>
           </div>
           {/* ######################## */}
-          <div className="border-4 border-[#A3258E] rounded w-[16rem] mx-auto mb-5 md:mx-0 md:ml-[30px] md:mb-0 ">
+          <div className="border-4 border-[#A3258E]  pb-3 rounded w-[16rem] mx-auto mb-5 md:pb-0 md:mx-0 md:ml-[30px] md:mb-0 ">
             <h4 className="text-[20px] text-[white] font-medium pt-[18px] pb-[20px] pl-[10px]">
               What we do and <br /> how to use
             </h4>
