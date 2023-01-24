@@ -4,22 +4,19 @@ import LoadingSpinner from "./Components/Loader/LoadingSpinner";
 import About from "./Components/MainPage/About";
 // import HomePage from "./Components/Pages/HomePage";
 
-import React, {Suspense} from "react";
+import React, { Suspense } from "react";
 
-const LazyHome = React.lazy(()=> import("./Components/Pages/HomePage"))
-
+const LazyHome = React.lazy(() => import("./Components/Pages/HomePage"));
 
 function App() {
   return (
     <Suspense fallback={<LoadingSpinner />}>
-    <Routes>
-      <Route path="/" element={<SharedLayout />} >
-      
-      <Route  index element={<LazyHome />}/>
-      <Route path='about' element={<About />} />
-</Route>
-
-    </Routes>
+      <Routes>
+        <Route path="/" element={<SharedLayout />}>
+          <Route index element={<LazyHome />} />
+          <Route path="about" element={<About />} />
+        </Route>
+      </Routes>
     </Suspense>
   );
 }
